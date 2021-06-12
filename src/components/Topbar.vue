@@ -1,0 +1,101 @@
+<template>
+  <nav class="custom-nav border-b">
+    <div class="container">
+      <div class="row row-cols-3 g-2 w-100 align-items-center">
+        <div class="col">
+          <img src="../assets/geo-logo.png" width="226px" alt="">
+        </div>
+        <div class="col">
+          <ul class="nav-menu__center">
+            <li>Discover</li>
+            <li class="active">Create</li>
+            <li>
+              <button>Download</button>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="nav-menu__icons">
+            <li>
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" /></svg>
+            </li>
+            <li>
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+            </li>
+            <li>
+              <img src="../assets/avatar-img.png" class="user-avatar" alt="">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</template>
+
+<style lang="scss">
+.custom-nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  .nav-menu__center {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    justify-content: center;
+    li:not(:last-child) {
+      margin-right: 43px;
+    }
+    li {
+      font-size: 17px;
+      line-height: 23px;
+      color: #5B5C5E;
+      opacity: 0.9;
+      font-weight: 500;
+    }
+    li.active {
+      color: #2DAEE1;
+    }
+    li {
+      button {
+        height: 36px;
+        width: 108px;
+        border-radius: 24px;
+        background-color: #BDBFC2;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 20px;
+        color: #fff;
+        border: 0;
+        &:focus {
+          outline: 0;
+        }
+      }
+    }
+  }
+  .nav-menu__icons {
+    list-style: none;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    li:not(:last-child) {
+      margin-right: 35px;
+    }
+    li {
+      color: #7D888E;
+      svg {
+        height: 24px;
+        width: 24px;
+      }
+      .user-avatar {
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+</style>
