@@ -1,5 +1,5 @@
 <template>
-  <nav class="custom-nav border-b">
+  <nav class="custom-nav">
     <div class="container">
       <div class="row row-cols-3 g-2 w-100 align-items-center">
         <div class="col">
@@ -61,6 +61,7 @@
   height: 80px;
   display: flex;
   align-items: center;
+  border: 1px solid rgba(211, 220, 224, 0.2);
   .nav-menu__center {
     list-style: none;
     display: flex;
@@ -71,6 +72,7 @@
       margin-right: 43px;
     }
     li {
+      font-family: Avenir-Medium;
       font-size: 17px;
       line-height: 23px;
       color: #5b5c5e;
