@@ -1,8 +1,12 @@
 <template>
   <div class="main">
     <base-topbar />
-    <base-sidebar />
-    <router-view />
+      <section class="flex align-items-strech">
+        <base-sidebar />
+        <div class="w-75">
+          <router-view />
+        </div>
+    </section>
   </div>
 </template>
 

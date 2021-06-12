@@ -1,32 +1,30 @@
 <template>
-  <nav class="custom-nav">
-    <div class="container">
-      <div class="row row-cols-3 g-2 w-100 align-items-center">
-        <div class="col">
-          <img src="@/assets/geo-logo.png" width="226px" alt="" />
-        </div>
-        <div class="col">
-          <ul class="nav-menu__center">
-            <li>Discover</li>
-            <li class="active">Create</li>
-            <li>
-              <button>Download</button>
-            </li>
-          </ul>
-        </div>
-        <div class="col">
-          <ul class="nav-menu__icons">
-            <li>
-              <base-icon name="bookmark" />
-            </li>
-            <li>
-              <base-icon name="bell" />
-            </li>
-            <li>
-              <img src="@/assets/avatar-img.png" class="user-avatar" alt="" />
-            </li>
-          </ul>
-        </div>
+  <nav class="custom-nav" style="padding: 0 3rem">
+    <div class="row row-cols-3 g-2 w-100 align-items-center">
+      <div class="col">
+        <img src="@/assets/geo-logo.png" width="226px" alt="" />
+      </div>
+      <div class="col">
+        <ul class="nav-menu__center">
+          <li>Discover</li>
+          <li class="active">Create</li>
+          <li>
+            <button>Download</button>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="nav-menu__icons">
+          <li>
+            <base-icon name="bookmark" />
+          </li>
+          <li>
+            <base-icon name="bell" />
+          </li>
+          <li>
+            <img src="@/assets/avatar-img.png" class="user-avatar" alt="" />
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
