@@ -2,6 +2,7 @@
   <div class="main">
     <base-topbar />
     <base-sidebar />
+    <router-view />
   </div>
 </template>
 
