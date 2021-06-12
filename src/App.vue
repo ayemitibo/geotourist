@@ -1,17 +1,13 @@
 <template>
   <div>
-    <top-bar />
+    <base-topbar />
   </div>
 </template>
 
 <script>
-import TopBar from '@/components/Topbar'
 export default {
-  name: 'App',
-  components: {
-   TopBar
-  }
-}
+  name: "App",
+};
 </script>
 
 <style lang="scss">
