@@ -4,11 +4,20 @@
       <li class="active">Description</li>
       <li>
         Points
-        <!-- <div>
-          <p><span>1</span> Abbesses Metro Station</p>
-          <p><span>2</span> Pigalle and the Moulin R...</p>
-          <p>Create new point</p>
-        </div> -->
+        <div>
+          <div class="d-flex align-items-center">
+            <div class="number">1</div>
+            <p>Abbesses Metro Station</p>
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="number">2</div>
+            <p>Pigalle and the Moulin R...</p>
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="number"><base-icon name="plus" /></div>
+            <p>Create new point</p>
+          </div>
+        </div>
       </li>
       <li>Media</li>
       <li>Settings</li>
@@ -35,6 +44,24 @@
       background-color: #ffffff;
       box-shadow: 0 0 2px 0 rgba(132, 137, 141, 0.2);
       border-bottom: 2px solid #2daee1;
+    }
+    li div {
+      font-size: 17px;
+      opacity: 0.7;
+      white-space: pre;
+      margin: 10px 0;
+    }
+
+    li div .number {
+      height: 48px;
+      width: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 0.5px solid #d3dce0;
+      background-color: #ffffff;
+      border-radius: 50%;
+      margin-right: 15px;
     }
   }
 }
