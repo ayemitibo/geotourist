@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from './views/Home.vue'
+import Media from './views/Media.vue'
 
 Vue.use(VueRouter)
 
@@ -8,6 +9,10 @@ const routes = [
     {
         path: '/',
         component: Home
+    },
+    {
+        path: '/media',
+        component: Media
     },
 ]
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid px-0">
+  <div class="container-fluid px-0 d-flex">
     <aside class="aside">
       <ul>
         <li class="active">Description</li>
@@ -20,10 +20,13 @@
             </div>
           </div>
         </li>
-        <li class="menu">Media</li>
+        <li class="menu">
+          <router-link to="/media" tag="span">Media</router-link>
+        </li>
         <li class="menu">Settings</li>
       </ul>
     </aside>
+    <slot />
   </div>
 </template>
 <style lang="scss" scoped>
@@ -51,7 +54,8 @@
     }
     li.menu {
       font-weight: 900;
-      color: #373A3E;
+      color: #373a3e;
+      cursor: pointer;
     }
     li div {
       font-size: 17px;

@@ -1,11 +1,12 @@
 <template>
   <div class="main">
     <base-topbar />
-      <section class="flex align-items-strech">
-        <base-sidebar />
+    <section class="flex align-items-strech">
+      <base-sidebar>
         <div class="w-75">
           <router-view />
         </div>
+      </base-sidebar>
     </section>
   </div>
 </template>
