@@ -8,7 +8,11 @@
           <div>
             <div class="d-flex align-items-center">
               <div class="number">1</div>
-              <p class="mb-0">Abbesses Metro Station</p>
+              <p class="mb-0" style="cursor: pointer">
+                <router-link to="/metro" tag="span"
+                  >Abbesses Metro Station</router-link
+                >
+              </p>
             </div>
             <div class="d-flex align-items-center">
               <div class="number">2</div>

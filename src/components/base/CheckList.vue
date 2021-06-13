@@ -25,6 +25,7 @@
 <style lang="scss" scoped>
 .checklist {
   padding: 10px;
+  height: 400px;
   border: 0.5px solid rgba(212, 214, 216, 0.5);
   border-radius: 6px;
   background-color: #ffffff;
