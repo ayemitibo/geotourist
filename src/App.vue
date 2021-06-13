@@ -4,7 +4,9 @@
     <section class="flex align-items-strech">
       <base-sidebar>
         <div class="w-75">
-          <router-view />
+          <div class="py-5 px-5">
+            <router-view />
+          </div>
         </div>
       </base-sidebar>
     </section>
