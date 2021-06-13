@@ -17,7 +17,7 @@
           Dominated by the grandeur of the ever-visible Sacré-Cœur Basilica, the leafy hilltop village of Montmartre was once the play area of Paris’s most famous artists, bohemians and creatures of the night. These days, the winding cobbled streets host chic cafes, retro boutiques and fine French dining but, if you look closely enough, those in search of historical secrets can still find traces of the old La Bohème hidden between the tourist traps…
         </p>
       </div>
-      <div class="row row-cols-lg-2 g-2">
+      <div class="row row-cols-lg-6 g-2">
         <div class="col">
           <div class="card h-100"></div>
         </div>
