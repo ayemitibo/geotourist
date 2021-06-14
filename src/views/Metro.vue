@@ -1,6 +1,6 @@
 <template>
-  <div class="row mt-4">
-    <div class="col-md-7 offset-md-1">
+  <div class="row g-5">
+    <div class="col-md-9">
       <h2 class="mb-3">1 <span>Abbesses Metro Station</span></h2>
       <p>
         Paris’s larger and more well-known cemeteries might be the eternal
@@ -31,11 +31,7 @@
           allowfullscreen
         ></iframe>
       </div>
-      <div class="col-md-12 audio-section mb-3">
-        <div class="audio-flex">
-          <p class="audio">Audio</p>
-          <base-icon name="microphone" class="icon" />
-        </div>
+      <base-section title="Audio" icon="microphone">
         <div class="d-flex align-items-center">
           <table class="table">
             <tbody>
@@ -64,12 +60,9 @@
             </tbody>
           </table>
         </div>
-      </div>
-      <div class="col-md-12 audio-section">
-        <div class="audio-flex">
-          <p class="audio">Photos</p>
-          <base-icon name="camera" class="icon" />
-        </div>
+      </base-section>
+
+      <base-section title="Photos" icon="camera">
         <div class="d-flex align-items-center ms-3">
           <div class="lightbox">
             <div class="row">
@@ -106,23 +99,17 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-12 audio-section mb-3">
-        <div class="audio-flex">
-          <p class="audio">Tips</p>
-          <base-icon name="microphone" class="icon" />
-        </div>
+      </base-section>
+
+      <base-section title="Tips" icon="microphone">
         <ul>
           <li>Bring a lot of water</li>
           <li>Very crowded on weekends and holidays</li>
           <li>Look for ancient carving on the main door</li>
         </ul>
-      </div>
-      <div class="col-md-12 audio-section mb-3">
-        <div class="audio-flex">
-          <p class="audio">Links</p>
-          <base-icon name="link" class="icon" />
-        </div>
+      </base-section>
+
+      <base-section title="Links" icon="link">
         <div class="col-md-4 rounded">
           <div class="card" style="height: 146px">
             <img
@@ -140,7 +127,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </base-section>
     </div>
     <base-check-list class="col-md-3"></base-check-list>
   </div>
