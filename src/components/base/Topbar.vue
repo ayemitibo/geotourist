@@ -21,8 +21,26 @@
           <li>
             <base-icon name="bell" />
           </li>
-          <li>
-            <img src="@/assets/avatar-img.png" class="user-avatar" alt="" />
+          <li class="dropdown">
+            <img src="@/assets/avatar-img.png" class="user-avatar pointer" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" alt="" />
+            <ul class="dropdown-menu p-0 border-0" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="dropdown-item profile-dropdown user-details py-2" href="#">
+                  <div class="d-flex w-100 justify-content-between">
+                    <div class="d-flex align-items-start">
+                      <img src="@/assets/avatar-img.png" class="user-avatar pointer" width="60" id="dropdownMenuButton1"  data-bs-toggle="dropdown" aria-expanded="false" alt="" />
+                      <div class="ms-3">
+                        <h4 class="name mb-0">Lawrence Powers</h4>
+                        <p class="desc">My page</p>
+                      </div>
+                    </div>
+                    <img src="@/assets/img/barcode.png" width="30" height="30" />
+                  </div>
+                </a>
+              </li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -93,6 +111,26 @@
         height: 36px;
         width: 36px;
         border-radius: 50%;
+      }
+    }
+  }
+  .dropdown-menu {
+    min-width: 300px;
+    li {
+      margin-right: 0 !important;
+    }
+    .user-details {
+      background: #f8fbfc;
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid #bcdee8;
+      .name {
+        font-size: 16px;
+      }
+      .desc {
+        font-size: 13px;
+        color: #373a3e;
+        font-weight: 600;
       }
     }
   }
